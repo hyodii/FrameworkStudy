@@ -1,0 +1,11 @@
+/*=====================
+	Record.java
+	- 인터페이스
+=====================*/
+
+package com.test.spr;
+
+public interface Record
+{
+
+}

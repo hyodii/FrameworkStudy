@@ -1,0 +1,16 @@
+/*======================================================
+	Main.java
+	- 클래스
+	- RecordView 인터페이스를 구현하는 클래스로 설계.
+======================================================*/
+
+package com.test.spr;
+
+public class Main
+{
+
+	public static void main(String[] args)
+	{
+	}
+
+}

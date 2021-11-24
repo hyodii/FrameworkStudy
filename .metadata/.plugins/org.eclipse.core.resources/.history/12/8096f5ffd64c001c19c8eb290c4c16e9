@@ -1,0 +1,16 @@
+/*==========================================
+	RecordImpl1.java
+	- 클래스
+	- Record 인터페이스를 구현하는 클래스
+==========================================*/
+
+package com.test.spr;
+
+//                       ------------------ 이렇게 하는 순간 이 아이는 추상클래스!
+public class RecordImpl1 implements Record
+{
+	// 주요 속성 구성
+	private int kor, eng, mat;
+	private int total;
+	private double avg;
+}

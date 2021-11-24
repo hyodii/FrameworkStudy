@@ -1,0 +1,34 @@
+/*======================================================
+	RecordViewImpl.java
+	- 클래스
+	- RecordView 인터페이스를 구현하는 클래스로 설계
+	- RecordImpl1 의 적용 업무와 차별화
+======================================================*/
+
+package com.test.spr;
+
+public class RecordViewImpl implements RecordView
+{
+
+	@Override
+	public void setRecord(Record record)
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void input()
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void output()
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}
