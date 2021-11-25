@@ -3,6 +3,17 @@
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="com.test.spr.Record"/>
 <fullyQualifiedTypeName name="com.test.spr.RecordImpl1"/>
-<fullyQualifiedTypeName name="com.test.spr.RecordView"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
 <fullyQualifiedTypeName name="com.test.spr.RecordViewImpl"/>
+<fullyQualifiedTypeName name="com.test.spr.RecordView"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.beans.Statement"/>
+<fullyQualifiedTypeName name="com.test.spr.MemberDTO"/>
+<fullyQualifiedTypeName name="com.test.spr.MemberList"/>
 </qualifiedTypeNameHistroy>
