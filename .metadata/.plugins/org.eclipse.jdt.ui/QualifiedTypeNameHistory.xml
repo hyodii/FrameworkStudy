@@ -16,4 +16,5 @@
 <fullyQualifiedTypeName name="java.beans.Statement"/>
 <fullyQualifiedTypeName name="com.test.spr.MemberDTO"/>
 <fullyQualifiedTypeName name="com.test.spr.MemberList"/>
+<fullyQualifiedTypeName name="com.test.spr.MssqlDAO"/>
 </qualifiedTypeNameHistroy>

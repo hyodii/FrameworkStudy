@@ -238,7 +238,7 @@ IoC 컨테이너 == 스프링
         · 파일 3 : org.springframework.context-3.0.2.RELEASE.jar
         · 파일 4 : org.springframework.core-3.0.2.RELEASE.jar
         · 파일 5 : org.springframework.expression-3.0.2.RELEASE.jar
-      - 경로1 : C:\s-f-3.0.2-dependencies\org.apache.commons
+      - 경로2 : C:\s-f-3.0.2-dependencies\org.apache.commons
                 \com.springsource.org.apache.commons.logging\1.1.1
         · 파일 6 : com.springsource.org.apache.commons.logging-1.1.1.jar
 
@@ -298,6 +298,47 @@ IoC 컨테이너 == 스프링
    5. MemberList.java		→ DAO 클래스를 참조하는 클래스
                                 → 의존관계 설정, pring() 메소드 구현
    6. Main.java			→ main() 메소드를 포함하는 테스트 클래스
+
+
+--------------------------------------------------------------------------------------------------
+■■■ IoC/DI 실습 04 ■■■
+
+※ 스프링 프레임워크 적용 IoC/DI 개념 실습
+
+○ 실습 성격 및 주요 사항
+   1. 콘솔 프로젝트
+   2. 데이터베이스 연동 프로젝트 구성
+   3. 오라클 암호화 / 복호화 적용
+
+○ 물리적 파일 구성
+   1. SpringPrj03.scott.sql	→ 데이터베이스 관련 준비
+   2. MemberDTO.java		→ TBL_MEMBERLIST 테이블 레코드 참조
+   3. OracleDAO.java		→ DAO 역할 → 실습 진행간에는 계정 설정만 다르게 연결
+   4. MssqlDAO.java		→ DAO 역할 → 실습 진행간에는 계정 설정만 다르게 연결
+   5. MemberList.java		→ DAO 클래스를 참조하는 클래스
+                                → 의존관계 설정, pring() 메소드 구현
+   6. Main.java			→ main() 메소드를 포함하는 테스트 클래스
+
+○ 추가 파일
+   7. IDAO.java			→ 인터페이스
+   8. applicationContext.xml	→ 스프링 환경 설정 파일
+                                   객체 생성 구문 및 DI 설정 구문 구성
+
+※ 라이브러리 등록
+   - 경로1 : C:\s-f-3.0.2-with-docs\spring-framework-3.0.2.RELEASE\dist
+     ·파일1 : org.springframework.asm-3.0.2.RELEASE.jar
+        · 파일 1 : org.springframework.asm-3.0.2.RELEASE.jar
+        · 파일 2 : org.springframework.beans-3.0.2.RELEASE.jar
+        · 파일 3 : org.springframework.context-3.0.2.RELEASE.jar
+        · 파일 4 : org.springframework.core-3.0.2.RELEASE.jar
+        · 파일 5 : org.springframework.expression-3.0.2.RELEASE.jar
+      - 경로2 : C:\s-f-3.0.2-dependencies\org.apache.commons
+                \com.springsource.org.apache.commons.logging\1.1.1
+        · 파일 6 : com.springsource.org.apache.commons.logging-1.1.1.jar
+(추가)- 경로3 : C:\oraclexe\app\oracle\product\11.2.0\server\jdbc\lib
+        · 파일 8 : ojdbc6.jar
+
+
 
 
 
