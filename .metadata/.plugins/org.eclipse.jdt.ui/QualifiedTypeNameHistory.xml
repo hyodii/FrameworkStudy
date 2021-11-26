@@ -3,8 +3,6 @@
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="com.test.spr.Record"/>
 <fullyQualifiedTypeName name="com.test.spr.RecordImpl1"/>
-<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
-<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
 <fullyQualifiedTypeName name="com.test.spr.RecordViewImpl"/>
 <fullyQualifiedTypeName name="com.test.spr.RecordView"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
@@ -15,6 +13,17 @@
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.beans.Statement"/>
 <fullyQualifiedTypeName name="com.test.spr.MemberDTO"/>
-<fullyQualifiedTypeName name="com.test.spr.MemberList"/>
 <fullyQualifiedTypeName name="com.test.spr.MssqlDAO"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="com.test.spr.MemberList"/>
+<fullyQualifiedTypeName name="com.test.spr.CalculatorImpl"/>
+<fullyQualifiedTypeName name="java.lang.reflect.InvocationHandler"/>
+<fullyQualifiedTypeName name="org.apache.commons.logging.Log"/>
+<fullyQualifiedTypeName name="org.apache.commons.logging.LogFactory"/>
+<fullyQualifiedTypeName name="org.springframework.util.StopWatch"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Proxy"/>
+<fullyQualifiedTypeName name="com.test.spr.CalculatorProxy"/>
+<fullyQualifiedTypeName name="com.test.spr.Calculator"/>
 </qualifiedTypeNameHistroy>
